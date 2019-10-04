@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Drivern Basic Test]">
+  <test name="LoginTest">
+    <classes>
+      <class name="com.demo.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.demo.testcases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.demo.testcases.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Data Drivern Basic Test] -->

@@ -9,6 +9,7 @@ public class LoginTest extends TestBase {
 	public void loginTest(){
 		System.out.println("Test Started");
 		System.out.println("Test Completed");
+		System.out.println("Pratik");
 	}
 
 }
